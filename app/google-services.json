@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "952125895243",
+    "firebase_url": "https://manit-9d578.firebaseio.com",
+    "project_id": "manit-9d578",
+    "storage_bucket": "manit-9d578.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:952125895243:android:19c99fdb605882ffcb93ce",
+        "android_client_info": {
+          "package_name": "com.example.manit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "952125895243-9hcn1hepsb7n2b2kj9ssord9j9istmkq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manit",
+            "certificate_hash": "66907868b089709a67549f369485e42f53614f01"
+          }
+        },
+        {
+          "client_id": "952125895243-grvt0iqvhj30sh1qa1pqf4ebct2sb2sh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCemw86RB4sJve4Ze8nDIuzbYtUJ8lDOUE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "952125895243-grvt0iqvhj30sh1qa1pqf4ebct2sb2sh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

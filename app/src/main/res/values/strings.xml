@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">PaperSort</string>
+    <string name="btec">B.Tech</string>
+    <string name="barc">B.Arch</string>
+    <string-array name="semester">
+        <item>First semester</item>
+        <item>Second semester</item>
+        <item>Third semester</item>
+        <item>Four semester</item>
+        <item>Five semester</item>
+        <item>Six semester</item>
+        <item>Seven semester</item>
+        <item>Eight semester</item>
+    </string-array>
+    <string-array name="year">
+        <item>First year</item>
+        <item>Second year</item>
+        <item>Third year</item>
+        <item>Fourth year</item>
+    </string-array>
+    <string-array name="branch">
+        <item>Computer Science</item>
+        <item>Mechanical</item>
+        <item>Electrical</item>
+        <item>Electrical and Communication engineering</item>
+        <item>Civil Engineering</item>
+        <item>MSME</item>
+    </string-array>
+    <string-array name="second">
+        <item>second</item>
+        <item>Mechanical</item>
+        <item>Electrical</item>
+        <item>Electrical and Communication engineering</item>
+        <item>Civil Engineering</item>
+        <item>MSME</item>
+    </string-array>
+    <string-array name="third">
+        <item>third</item>
+        <item>Mechanical</item>
+        <item>Electrical</item>
+        <item>Electrical and Communication engineering</item>
+        <item>Civil Engineering</item>
+        <item>MSME</item>
+    </string-array>
+
+
+    <string-array name="firstyear">
+        <item>Solid mechanics</item>
+        <item>Mechanical</item>
+        <item>Electrical</item>
+        <item>Electrical and Communication engineering</item>
+        <item>Civil Engineering</item>
+        <item>MSME</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_cse">cse</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9019470864409133/3495972204</string>
+</resources>

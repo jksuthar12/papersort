@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Previous year paper"
+            android:id="@+id/paper"
+            android:icon="@drawable/pap"
+            />
+        <item android:title="Notes"
+            android:id="@+id/notes"
+            android:icon="@drawable/not"/>
+        <item android:title="Important documents"
+            android:id="@+id/imp"
+            android:icon="@drawable/file"
+            />
+        <item android:title="Books"
+            android:id="@+id/book"
+            android:icon="@drawable/library"/>
+    </group>
+   <item android:title="Communicate">
+       <menu>
+           <item android:title="Feedback"
+               android:id="@+id/fedd"
+               android:icon="@drawable/feedback"/>
+           <item android:title="Share"
+               android:icon="@drawable/share"
+               android:id="@+id/share"/>
+       </menu>
+   </item>
+</menu>

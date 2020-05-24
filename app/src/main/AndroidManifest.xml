@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.manit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".faculty"
+            android:theme="@style/faculty" />
+        <activity
+            android:name=".signup"
+            android:parentActivityName=".login"
+            android:theme="@style/login" />
+        <activity android:name=".memes" />
+        <activity android:name=".notificationa" />
+        <activity
+            android:name=".feedback"
+            android:theme="@style/special" />
+        <activity
+            android:name=".webview"
+            android:theme="@style/status" />
+        <activity
+            android:name=".civil"
+            android:parentActivityName=".btech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".cse"
+            android:label="@string/title_activity_cse"
+            android:parentActivityName=".btech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".mech"
+            android:parentActivityName=".btech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ece"
+            android:label="ece"
+            android:parentActivityName=".btech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".msme"
+            android:parentActivityName=".btech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ele"
+            android:parentActivityName=".btech"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".barch"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".btech"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/special"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".splashscreen"
+            android:theme="@style/spashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".notification">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_name" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/egypt" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9019470864409133~3266771875" />
+    </application>
+
+</manifest>

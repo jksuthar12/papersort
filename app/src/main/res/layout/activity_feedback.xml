@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".feedback">
+    <include layout="@layout/toolbar2"
+        android:id="@+id/tolbar2"/>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:paddingLeft="7dp"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:singleLine="true"
+        android:textCursorDrawable="@drawable/cursorfeed"
+        android:hint="please input your e-mail"
+        android:inputType="textNoSuggestions"
+       />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:minHeight="100dp"
+        android:gravity="top"
+        android:paddingTop="7dp"
+        android:minLines="1"
+        android:maxHeight="200dp"
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textCursorDrawable="@drawable/cursorfeed"
+        android:paddingLeft="7dp"
+        android:singleLine="false"
+        android:background="@drawable/border"
+        android:ems="10"
+        android:hint="Please describe the issue"
+        android:inputType="textNoSuggestions|textMultiLine"
+        />
+
+
+
+
+</LinearLayout>
